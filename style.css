@@ -1575,7 +1575,7 @@
       --fontSize-title-2: 2.5rem;
   
     }
-   
+    
     .container,
     :is(.service, .event) .container {
       max-width: 1200px;
