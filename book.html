@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SavorGrill - Food Booking</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <div class="container">
+        <a href="#" class="logo">
+            <img src="images/food.png" width="160" height="50" alt="Grilli - Home">
+          </a>
+          
+        <h1>Welcome to SavorGrill</h1>
+        <h2>Our Menu</h2>
+        <div class="menu">
+            <div class="menu-item">
+                <span>Grilled Steak</span> - $20
+                <button onclick="addToCart('Grilled Steak', 20)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span>Spicy Chicken Wings</span> - $15
+                <button onclick="addToCart('Spicy Chicken Wings', 15)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span>Cheeseburger</span> - $12
+                <button onclick="addToCart('Cheeseburger', 12)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span>Seafood Platter</span> - $25
+                <button onclick="addToCart('Seafood Platter', 25)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span>Caesar Salad</span> - $10
+                <button onclick="addToCart('Caesar Salad', 10)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span>Veggie Pizza</span> - $18
+                <button onclick="addToCart('Veggie Pizza', 18)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span>BBQ Ribs</span> - $22
+                <button onclick="addToCart('BBQ Ribs', 22)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span>Grilled Salmon</span> - $28
+                <button onclick="addToCart('Grilled Salmon', 28)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span>Beef Tacos</span> - $14
+                <button onclick="addToCart('Beef Tacos', 14)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span>Pasta Alfredo</span> - $16
+                <button onclick="addToCart('Pasta Alfredo', 16)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span>Margarita Pizza</span> - $19
+                <button onclick="addToCart('Margarita Pizza', 19)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span>Lobster Roll</span> - $30
+                <button onclick="addToCart('Lobster Roll', 30)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span>French Fries</span> - $8
+                <button onclick="addToCart('French Fries', 8)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span>Apple Pie</span> - $7
+                <button onclick="addToCart('Apple Pie', 7)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <span>Iced Tea</span> - $5
+                <button onclick="addToCart('Iced Tea', 5)">Add to Cart</button>
+            </div>
+        </div>
+        
+        <h2>Your Cart</h2>
+        <div id="cart"></div>
+        <h3>Total: $<span id="total">0</span></h3>
+        <button onclick="checkout()">Checkout</button>
+    </div>
+
+    <script src="book.js"></script>
+</body>
+</html>
